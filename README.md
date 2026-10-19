@@ -6,8 +6,8 @@ Colección de pequeños proyectos hechos con **HTML, CSS y JavaScript** mientras
 
 | Proyecto | Descripción | Demo | Código |
 |----------|-------------|------|--------|
-| 🎨 Portafolio personal | Portafolio con tema claro/oscuro, sección de estudios dinámica y formulario para añadir nuevos estudios | [Ver demo](https://alonsomariblanca.github.io/mis-proyectos-web/portafolio/) | [Carpeta](./portfolio) |
-| 🐙 Buscador de perfiles de GitHub | Busca un usuario de GitHub y muestra su avatar, bio y repositorios públicos usando la API de GitHub | [Ver demo](https://alonsomariblanca.github.io/mis-proyectos-web/buscador-github/) | [Carpeta](./buscador-nombres-github) |
+| 🎨 Portafolio personal | Portafolio con tema claro/oscuro, sección de estudios dinámica y formulario para añadir nuevos estudios | [Carpeta](./portfolio) |
+| 🐙 Buscador de perfiles de GitHub | Busca un usuario de GitHub y muestra su avatar, bio y repositorios públicos usando la API de GitHub | [Carpeta](./buscador-nombres-github) |
 
 ## Qué he practicado
 
