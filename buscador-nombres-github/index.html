@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi GitHub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Perfil de <span>GitHub</span></h1>
+
+  <div class="buscador">
+    <input type="text" id="input-usuario" placeholder="Usuario de GitHub..." />
+    <button onclick="buscarPerfil()">Buscar</button>
+  </div>
+
+  <p id="error"></p>
+  <p id="cargando">Cargando...</p>
+
+  <div id="perfil">
+    <div class="perfil-cabecera">
+      <img id="avatar" src="" alt="Avatar" />
+      <div>
+        <h2 id="nombre"></h2>
+        <p id="bio"></p>
+      </div>
+    </div>
+
+    <h3>Repositorios públicos</h3>
+    <ul id="lista-repos"></ul>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
