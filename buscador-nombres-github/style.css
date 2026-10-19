@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  background: #0f0f0f;
+  color: #f5f5f5;
+  padding: 2rem 1rem;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+h1 span {
+  color: #FF6A00;
+}
+
+/* ── Formulario ── */
+.buscador {
+  display: flex;
+  gap: 0.5rem;
+  max-width: 500px;
+  margin: 0 auto 2rem;
+}
+
+.buscador input {
+  flex: 1;
+  padding: 0.6rem 0.8rem;
+  border-radius: 8px;
+  border: 1px solid #333;
+  background: #1a1a1a;
+  color: #f5f5f5;
+  font-size: 1rem;
+}
+
+.buscador input:focus {
+  outline: none;
+  border-color: #FF6A00;
+}
+
+.buscador button {
+  padding: 0.6rem 1.2rem;
+  background: #FF6A00;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.buscador button:hover {
+  background: #e55d00;
+}
+
+/* ── Error ── */
+#error {
+  text-align: center;
+  color: #ff4d4d;
+  margin-bottom: 1rem;
+  display: none;
+}
+
+/* ── Perfil ── */
+#perfil {
+  max-width: 500px;
+  margin: 0 auto;
+  background: #1a1a1a;
+  border-radius: 10px;
+  padding: 1.2rem;
+  display: none;
+}
+
+.perfil-cabecera {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.perfil-cabecera img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 2px solid #FF6A00;
+}
+
+.perfil-cabecera h2 {
+  font-size: 1.2rem;
+}
+
+.perfil-cabecera p {
+  font-size: 0.85rem;
+  color: #b3b3b3;
+  margin-top: 0.2rem;
+}
+
+/* ── Lista repositorios ── */
+h3 {
+  font-size: 1rem;
+  margin-bottom: 0.8rem;
+  border-left: 3px solid #FF6A00;
+  padding-left: 0.5rem;
+}
+
+#lista-repos {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+#lista-repos li {
+  background: #0f0f0f;
+  border: 1px solid #222;
+  border-radius: 8px;
+  padding: 0.6rem 0.8rem;
+}
+
+#lista-repos li a {
+  color: #FF6A00;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+
+#lista-repos li a:hover {
+  text-decoration: underline;
+}
+
+#lista-repos li p {
+  font-size: 0.82rem;
+  color: #b3b3b3;
+  margin-top: 0.2rem;
+}
+
+/* ── Cargando ── */
+#cargando {
+  text-align: center;
+  color: #b3b3b3;
+  display: none;
+}
