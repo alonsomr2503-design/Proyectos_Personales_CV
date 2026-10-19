@@ -4,8 +4,8 @@ Colección de pequeños proyectos hechos con **HTML, CSS y JavaScript** mientras
 
 ## Proyectos
 
-| Proyecto | Descripción | Demo | Código |
-|----------|-------------|------|--------|
+| Proyecto | Descripción | Código |
+|----------|-------------|--------|
 | 🎨 Portafolio personal | Portafolio con tema claro/oscuro, sección de estudios dinámica y formulario para añadir nuevos estudios | [Carpeta](./portfolio) |
 | 🐙 Buscador de perfiles de GitHub | Busca un usuario de GitHub y muestra su avatar, bio y repositorios públicos usando la API de GitHub | [Carpeta](./buscador-nombres-github) |
 
